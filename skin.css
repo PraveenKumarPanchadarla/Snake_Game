@@ -1,0 +1,29 @@
+#board{
+    border: 3px solid;
+    background-color:azure;
+}
+#gamecon{
+    text-align: center;
+}
+#score{
+    font-family: 'Permanent Marker',cursive;
+    font-size: 50px;
+}
+#reset:hover{
+    transform: scale(1.10);
+    transition: .45;
+}
+#reset:active{
+    transform: scale(0.90);
+    transition: .45;
+}
+#reset{
+    border:2px solid;
+    width: 80px;
+    height:40px;
+    font-family: 'Permanent Marker',cursive;
+    font-size: 18px;
+    border-radius: 14px;
+    cursor:pointer;
+
+}
